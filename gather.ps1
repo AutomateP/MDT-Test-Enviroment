@@ -12,4 +12,4 @@ if (Test-Path -Path "C:\MININT") {Write-Host "C:\MININT exists, deleting...";Rem
 cscript.exe ZTIGather.wsf /inifile:CSDGWS.ini /debug:true
  
 # Optional, remove the comment if you want the script to open the log in CMTrace
-& "C:\MDT-Test-Enviroment\CMTrace" C:\MININT\SMSOSD\OSDLOGS\ZTIGather.log
+& "C:\MDT-Test-Enviromentx\CMTrace" C:\MININT\SMSOSD\OSDLOGS\ZTIGather.log
